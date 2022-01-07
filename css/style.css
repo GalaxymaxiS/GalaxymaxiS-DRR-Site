@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
+
+html{
+    height: auto;
+    width: auto;
+    background-color: #2A3D45;
+}
+
+footer{
+    font-family: 'Comfortaa';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+table{
+    width:100%;
+    color: aliceblue;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#navi {
+    background: #000000;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight:normal;
+}
+
+.link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 24px 10px;
+}
+.container {
+  position: relative;
+}
+
+#logo {
+    width: 512px;
+    height: 512px;
+    background-image: url('http://darasu.altervista.org/img/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    -ms-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+
+#Tab{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background: #FFF;
+    background-color: #404040;
+    background-repeat: no-repeat;
+    margin: 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+}
